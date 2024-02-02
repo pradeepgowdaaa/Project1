@@ -90,7 +90,7 @@
             <button class="buttn">submit</button>
         </div>
     </nav>
-    <h1 class="mid">Paragraphs</h1>
+    <h1 class="mid">Paragraph</h1>
     <div style="background-color: pink;" id="about"> </div>
    <p class="cool">About: <br>
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur autem nesciunt eligendi pariatur quisquam cum facere, quasi quaerat laudantium repellendus magni itaque, nulla esse nam fuga laboriosam aliquid corrupti exercitationem.
