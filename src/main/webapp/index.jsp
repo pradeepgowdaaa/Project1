@@ -95,7 +95,7 @@ button#btn {
     -webkit-background-clip: text;
     color: transparent;
     position: absolute;
-    text-shadow: 20deg, 20deg, 20deg, 20deg C;
+    text-shadow: 20deg, 20deg, 20deg, 20deg ;
 }
 
 @keyframes anim {
@@ -230,7 +230,7 @@ img {
     </section>
     <button id="btn">Reset</button>
     <section id="winingboard">
-        <h2 id="head"></h2>
+        <h2 id="head" style="display: block;"></h2>
         <h2 id="header"data-text="&nbsp;Winner!&nbsp;">&nbsp;Winner!&nbsp;</h2>
         
     </section>
