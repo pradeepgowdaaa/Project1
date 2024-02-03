@@ -56,17 +56,21 @@ button#btn {
     height: 10%;
     top: 80%;
     left: 35%;
+    z-index: 111;
 }
 
 #winingboard {
-    width: 90%;
+    width: 32%;
     height: 60vh;
     background: rgb(249 249 249);
     position: absolute;
     top: 25%;
     left: 5%;
     justify-content: center;
-    display: none;
+    align-items: center;
+    /* border: 2px solid red; */
+    border-radius: 58px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.6);
 }
 
 #header {
