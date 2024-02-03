@@ -13,11 +13,10 @@
     padding: 0px;
     overflow: hidden;
 }
-@media screen and (max-width: 400px) {
-    body{
-        display: flex ;
-        flex-direction: column;
-    }
+@media screen and (400px>=width<=650px) {
+   #one{
+    width: 100%
+   }
 }
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
         * {
@@ -184,6 +183,9 @@ img{
 </head>
 
 <body>
+    <div id="one">
+
+    
     <section id="playb">
         <div class="box" id="0"></div>
         <div class="box" id="1"></div>
@@ -206,6 +208,7 @@ img{
         <h2 id="ph">TIC TAK TOA</h2>
         <button id="p">Play</button>
     </section>
+</div>
 </body>
 <script>
 let board = document.querySelectorAll(".box");
