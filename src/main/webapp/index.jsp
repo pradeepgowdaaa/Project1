@@ -168,7 +168,6 @@ button#p {
 img {
     height: auto;
     width: 100%;
-    z-index: 11;
 }
 
 @media screen and (max-width: 320px) {
