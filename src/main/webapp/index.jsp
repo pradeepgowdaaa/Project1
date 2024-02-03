@@ -1,4 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe1</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
 
 * {
     margin: 0;
@@ -200,6 +209,36 @@ img {
     }
 }
 
+
+    </style>
+</head>
+
+<body>
+
+
+    
+    <section id="playb">
+        <div class="box" id="0"></div>
+        <div class="box" id="1"></div>
+        <div class="box" id="2"></div>
+        <div class="box" id="3"></div>
+        <div class="box" id="4"></div>
+        <div class="box" id="5"></div>
+        <div class="box" id="6"></div>
+        <div class="box" id="7"></div>
+        <div class="box" id="8"></div>
+    </section>
+    <button id="btn">Reset</button>
+    <section id="winingboard">
+        <h2 id="head"></h2>
+        <h2 id="header"data-text="&nbsp;Winner!&nbsp;">&nbsp;Winner!&nbsp;</h2>
+        
+    </section>
+    <section id="open">
+        <img src="https://c1.wallpaperflare.com/preview/143/196/914/klee-four-leaf-clover-lucky-clover-tic-tac-toe.jpg" alt="">
+        <h2 id="ph">TIC TAK TOA</h2>
+        <button id="p">Play</button>
+    </section>
 
 </body>
 <script>
