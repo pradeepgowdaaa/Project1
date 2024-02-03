@@ -54,7 +54,7 @@ button#btn {
     position: absolute;
     width: 30%;
     height: 10%;
-    top: 80%;
+    top: 72%;
     left: 35%;
 }
 
