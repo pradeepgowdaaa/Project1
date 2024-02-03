@@ -56,6 +56,7 @@ button#btn {
     height: 10%;
     top: 89%;
     left: 35%;
+    z-index: 11;
 }
 
 #winingboard {
