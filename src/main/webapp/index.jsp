@@ -14,9 +14,6 @@
     overflow: hidden;
 }
 @media screen and (max-width: 400px) {
-    body{
-        
-    }
 }
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
         * {
