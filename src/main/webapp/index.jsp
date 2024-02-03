@@ -149,7 +149,7 @@ button#btn {
 
 h2#ph {
     font-size: 7em;
-    background: linear-gradient(to right, orange, yellow, green, blue, indigo,violet);
+    background: linear-gradient(to right, yellow,lawngreen, goldenrod, green);
     -webkit-background-clip: text;
             color: transparent;
     position: absolute;
@@ -170,7 +170,7 @@ button#p {
     font-weight: bold;
 }
 img{
-    height: 1000px;
+    height: 100px;
     width: 2000px;
 }
 
