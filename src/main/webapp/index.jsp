@@ -14,10 +14,7 @@
     overflow: hidden;
 }
 @media screen and (width:400px) {
-    #one{
-        width: 100vw;
-    }
-
+   
 }
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
         * {
@@ -184,7 +181,7 @@ img{
 </head>
 
 <body>
-    <div id="one">
+
 
     
     <section id="playb">
@@ -209,7 +206,7 @@ img{
         <h2 id="ph">TIC TAK TOA</h2>
         <button id="p">Play</button>
     </section>
-</div>
+
 </body>
 <script>
 let board = document.querySelectorAll(".box");
