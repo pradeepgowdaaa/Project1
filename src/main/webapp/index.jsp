@@ -70,7 +70,7 @@ button#btn {
     background: rgb(249 249 249);
     position: absolute;
     top: 19.5%;
-    left: 62%;
+    left: 68%;
     justify-content: center;
     display: "none";
 }
