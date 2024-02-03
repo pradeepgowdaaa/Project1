@@ -13,9 +13,9 @@
     padding: 0px;
     overflow: hidden;
 }
-@media screen and (400px>=width<=650px) {
+@media screen and (max-width:400px) {
    #one{
-    width: 100%
+    width: 100vw;
    }
 }
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
