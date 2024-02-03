@@ -170,7 +170,7 @@ button#p {
     font-weight: bold;
 }
 img{
-    height: 1000px;
+    height: 100px;
     width: 2000px;
 }
 
