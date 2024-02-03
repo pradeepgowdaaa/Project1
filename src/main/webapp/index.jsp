@@ -7,30 +7,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tic Tac Toe1</title>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Shadows Into Light', cursive;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
     overflow: hidden;
 }
-@media screen and (max-width: 400px) {
-   
-}
-@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        body {
-           
-            font-family: 'Shadows Into Light', cursive;
-            background: linear-gradient(to right, #ff7e5f, #feb47b);
-            overflow: hidden;
-        }
 
 #playb {
-    width: 30%;
+    width: 90%;
     height: 60vh;
     background-color: rgb(0, 0, 0);
     display: grid;
@@ -38,18 +30,19 @@
     grid-template-rows: repeat(3, 1fr);
     grid-gap: 2px;
     position: absolute;
-    top: 8em;
-    left: 29.5em;
+    top: 5em;
+    left: 5%;
 }
+
 #playb:hover {
-            background-color: rgba(0, 0, 0, 0.8);
-        }
+    background-color: rgba(0, 0, 0, 0.8);
+}
 
 div {
     width: 100%;
     height: 100%;
     background-color: #ffffff;
-    font-size: 5em;
+    font-size: 3em;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -59,70 +52,69 @@ div {
 
 button#btn {
     position: absolute;
-    width: 9%;
-    height: 5%;
+    width: 30%;
+    height: 10%;
     top: 90%;
-    left: 45%;
+    left: 35%;
+    z-index: 11;
 }
 
 #winingboard {
-    width: 30%;
+    width: 90%;
     height: 60vh;
     background: rgb(249 249 249);
     position: absolute;
-    top: 19.5%;
-    left: 62%;
+    top: 25%;
+    left: 5%;
     justify-content: center;
-    display: "none";
+    display: none;
 }
 
 #header {
-    font-size: 6em;
+    font-size: 4em;
     position: absolute;
-    /* display: flex; */
-    display: "none";
+    display: none;
     align-items: center;
     justify-content: center;
     left: 10%;
-    top: 46%;
+    top: 45%;
     font-family: 'Shadows Into Light', cursive;
     font-weight: bold;
 }
-#header::before{
+
+#header::before {
     content: attr(data-text);
     position: absolute;
     color: #fff;
-    width: 350px;
+    width: 200px;
     overflow: hidden;
     white-space: nowrap;
     border-right: 2px solid #fff;
     animation: anim 4s linear infinite;
-    filter: drop-shadow(0 0 5px #fff) 
-    drop-shadow(0 0 10px #fff);
-    background: linear-gradient(to right,Red, orange, yellow, green, blue, indigo,violet );
+    filter: drop-shadow(0 0 5px #fff) drop-shadow(0 0 10px #fff);
+    background: linear-gradient(to right, Red, orange, yellow, green, blue, indigo, violet);
     -webkit-background-clip: text;
-            color: transparent;
+    color: transparent;
     position: absolute;
-    text-shadow: 20deg,20deg,20deg,20degC;
+    text-shadow: 20deg, 20deg, 20deg, 20deg ;
 }
 
-@keyframes anim{
-    0%, 10%, 100%{
+@keyframes anim {
+    0%, 10%, 100% {
         width: 0;
     }
-    10%, 20%{
+    10%, 20% {
         width: 100%;
     }
 }
 
 #head {
-    font-size: 10em;
+    font-size: 7em;
     position: absolute;
-    /* display: flex; */
-    display: "none";
+    display: none;
     align-items: center;
     justify-content: center;
-    left: 40%;
+    left: 5%;
     top: 0%;
     font-family: 'Shadows Into Light', cursive;
     font-weight: bold;
@@ -151,36 +143,81 @@ button#btn {
 }
 
 h2#ph {
-    font-size: 7em;
-    background: linear-gradient(to right, yellow,lawngreen, goldenrod, green);
+    font-size: 4em;
+    background: linear-gradient(to right, yellow, lawngreen, goldenrod, green);
     -webkit-background-clip: text;
-            color: transparent;
+    color: transparent;
     position: absolute;
-    top: 40%;
-    left: 30%;
+    top: 25%;
+    left: 5%;
     font-family: 'Shadows Into Light', cursive;
     font-weight: bold;
 }
 
 button#p {
     position: absolute;
-    width: 15%;
-    height: 9%;
-    font-size: 2.5em;
+    width: 40%;
+    height: 15%;
+    font-size: 1.5em;
     border-radius: 31px;
-    top: 80%;
+    top: 70%;
     font-family: 'Shadows Into Light', cursive;
     font-weight: bold;
 }
-img{
-    height: 1000px;
-    width: 2000px;
+
+img {
+    height: auto;
+    width: 100%;
 }
+
+@media screen and (max-width: 320px) {
+    #playb {
+        width: 90%;
+        left: 5%;
+    }
+
+    #btn {
+        width: 40%;
+        left: 30%;
+    }
+
+    #winingboard {
+        width: 90%;
+        left: 5%;
+    }
+
+    #header {
+        left: 5%;
+    }
+
+    #head {
+        left: 5%;
+    }
+
+    #open {
+        height: auto;
+    }
+
+    h2#ph {
+        font-size: 3em;
+        top: 15%;
+        left: 5%;
+    }
+
+    button#p {
+        width: 80%;
+        top: 60%;
+    }
+}
+
 
     </style>
 </head>
 
 <body>
+
+
+    
     <section id="playb">
         <div class="box" id="0"></div>
         <div class="box" id="1"></div>
@@ -203,6 +240,7 @@ img{
         <h2 id="ph">TIC TAK TOA</h2>
         <button id="p">Play</button>
     </section>
+
 </body>
 <script>
 let board = document.querySelectorAll(".box");
