@@ -237,7 +237,7 @@ img {
     </section>
     <section id="open">
         <img src="https://c1.wallpaperflare.com/preview/143/196/914/klee-four-leaf-clover-lucky-clover-tic-tac-toe.jpg" alt="">
-        <h2 id="ph">TIC TAK TOA</h2>
+        <h2 id="ph">TIC TOC TOE</h2>
         <button id="p">Play</button>
     </section>
 
