@@ -14,6 +14,10 @@
     overflow: hidden;
 }
 @media screen and (max-width: 400px) {
+    body{
+        display: flex ;
+        flex-direction: column;
+    }
 }
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
         * {
@@ -135,7 +139,7 @@ button#btn {
     display: flex;
     justify-content: center;
     background: url(bg.jpg);
-    background-size: cover;
+    background-size: cover;  /* Fixed background size */
     animation: linear forwards;
     top: 0%;
 }
